@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Samsung MSM8916 Common Repos -->
+  <project path="device/samsung/msm8916-common" name="itexpert120/android_device_samsung_msm8916-common" groups="device" remote="github"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
+
+ <!-- Samsung Hardware Repo -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+
+ <!-- Common Samsung MSM8916 Kernel -->
+  <project path="kernel/samsung/msm8916" name="itexpert120/android_kernel_samsung_msm8916" remote="github"/>
+
+ <!-- Vendor Trees (for all devices) -->
+  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="github"/>
+
+ <!-- Qcom audio  -->
+  <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8916" />
+
+ <!-- Dependencies -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
+
+ <!-- arm-eabi-7.2 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
+
+ <!-- Galaxy Grand Prime/Fortuna -->
+  <project path="device/samsung/gprimelte-common" name="itexpert120/android_device_samsung_gprimelte-common" groups="device" remote="github"/>
+  <project path="device/samsung/fortuna3g" name="itexpert120/android_device_samsung_fortuna3g" groups="device" remote="github"/>
+
+</manifest>
