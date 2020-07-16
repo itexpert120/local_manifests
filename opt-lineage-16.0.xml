@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="github"
-         fetch="https://github.com/" />
-
 <remote  name="jens"
          fetch="https://gitea.jenslody.de/jens" />		   
 
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="itexpert120/android_device_samsung_msm8916-common" remote="github" revision="lineage-16.0-final"/>
-  <project path="kernel/samsung/msm8916" name="android_kernel_samsung_msm8916" remote="jens" revision="lineage-16.0"/>
+  <project path="kernel/samsung/msm8916" name="android_kernel_samsung_msm8916" remote="jens" revision="lineage-16.0-oc"/>
   <project path="vendor/samsung" name="itexpert120/proprietary_vendor_samsung" remote="github" revision="lineage-16.0"/>
 
   <!-- LineageOS repos -->
