@@ -3,7 +3,7 @@
 
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="itexpert120/android_device_samsung_msm8916-common" remote="github" revision="lineage-16.0-final"/>
-  <project path="kernel/samsung/msm8916" name="DarkDroidDev/android_kernel_samsung_msm8916" remote="github" revision="ten"/>
+  <project path="kernel/samsung/msm8916" name="itexpert120/android_kernel_samsung_msm8916" remote="github" revision="RandomKernel"/>
   <project path="vendor/samsung" name="itexpert120/proprietary_vendor_samsung" remote="github" revision="lineage-16.0"/>
 
   <!-- LineageOS repos -->
