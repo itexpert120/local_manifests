@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Samsung MSM8916 common repos -->
+  <project path="device/samsung/msm8916-common" name="itexpert120/android_device_samsung_msm8916-common" remote="github" revision="lineage-17.1"/>
+  <project path="kernel/samsung/msm8916" name="itexpert120/android_kernel_samsung_msm8916" remote="github" revision="RandomKernel"/>
+  <project path="vendor/samsung" name="DarkDroidDev/proprietary_vendor_samsung" remote="github" revision="ten"/>
+
+  <!-- LineageOS repos -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.1"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8916/audio" name="itexpert120/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-17.1-caf-msm8916" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
+  
+  <!-- Grand Prime specified trees -->
+  <project path="device/samsung/gprimelte-common" name="DarkDroidDev/android_device_samsung_gprimelte-common" remote="github" revision="ten"/>
+  <project path="device/samsung/gprimelte" name="DarkDroidDev/android_device_samsung_gprimelte" remote="github" revision="ten"/>
+  <project path="device/samsung/gprimeltespr" name="DarkDroidDev/android_device_samsung_gprimeltespr" remote="github" revision="ten"/>
+  <project path="device/samsung/gprimeltefnvzw" name="DarkDroidDev/android_device_samsung_gprimeltetfnvzw" remote="github" revision="ten"/>
+  <project path="device/samsung/gprimeltezt" name="DarkDroidDev/android_device_samsung_gprimeltezt" remote="github" revision="ten"/>
+  <project path="device/samsung/gprimeltexx" name="DarkDroidDev/android_device_samsung_gprimeltexx" remote="github" revision="ten"/>
+  <project path="device/samsung/fortunalteub" name="DarkDroidDev/android_device_samsung_fortunalteub" remote="github" revision="ten"/>
+  <project path="device/samsung/fortuna3g" name="DarkDroidDev/android_device_samsung_fortuna3g" remote="github" revision="ten"/>
+  <project path="device/samsung/fortunave3g" name="DarkDroidDev/android_device_samsung_fortunave3g" remote="github" revision="ten"/>
+
+</manifest>
