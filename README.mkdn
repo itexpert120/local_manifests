@@ -1,0 +1,24 @@
+Local Manifests
+===========
+LineageOS 17.1
+---------------
+```
+curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/lineage-17.1.xml --create-dirs
+repo sync -j16 --force-sync
+```
+Then to sync up:
+```
+repo sync -j16 --force-sync
+```
+
+
+LineageOS 16.0
+---------------
+```
+curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/lineage-16.0.xml --create-dirs
+repo sync -j16 --force-sync
+```
+Then to sync up:
+```
+repo sync -j16 --force-sync
+```
