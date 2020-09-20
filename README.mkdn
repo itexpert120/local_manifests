@@ -10,6 +10,16 @@ Then to sync up:
 repo sync -j16 --force-sync
 ```
 
+AOSP 10 Based ROMs
+---------------
+```
+curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/aosp-10.xml --create-dirs
+```
+Then to sync up:
+```
+repo sync -j16 --force-sync
+```
+
 
 LineageOS 16.0
 ---------------
