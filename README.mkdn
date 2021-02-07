@@ -1,6 +1,16 @@
 Local Manifests
 ===========
-LineageOS 17.1
+LineageOS 17.1 (MT6768)
+---------------
+```
+curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/mt6768.xml --create-dirs
+```
+Then to sync up:
+```
+repo sync -j$(nproc --all) --force-sync
+```
+
+LineageOS 17.1 (MSM8916)
 ---------------
 ```
 curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/lineage-17.1.xml --create-dirs
@@ -10,7 +20,7 @@ Then to sync up:
 repo sync -j$(nproc --all) --force-sync
 ```
 
-AOSP 10 Based ROMs
+AOSP 10 Based ROMs (MSM8916)
 ---------------
 ```
 curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/aosp-10.xml --create-dirs
@@ -21,7 +31,7 @@ repo sync -j$(nproc --all) --force-sync
 ```
 
 
-LineageOS 16.0
+LineageOS 16.0 (MSM8916)
 ---------------
 ```
 curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/local_manifests/master/opt-lineage-16.0.xml --create-dirs
